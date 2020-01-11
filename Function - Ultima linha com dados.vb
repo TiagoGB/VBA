@@ -1,5 +1,5 @@
 Function fLastRowData( _
-    ByRef pWorkbookName, _
+    ByVal pWorkbookName As String, _
     ByVal pSheetName As String, _
     ByVal pCol As String _
     )
